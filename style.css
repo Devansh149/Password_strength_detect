@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer{
+    padding: 1em;
+    height: 15em;
+    width: 18em;
+    background-color: rgb(62, 62, 62);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    position: relative;
+}
+.outer input{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.tog{
+    bottom: 28.5%;
+    right: 10%;
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: red;
+}
+.outer h4{
+    position: absolute;
+    bottom: 14%;
+    left: 23%;
+}
+.outer p{
+    color: red;
+    bottom: 14%;
+    left: 46%;
+    position: absolute;
+}
